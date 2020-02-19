@@ -1,7 +1,6 @@
 function findMinAndRemove(array){
   let index = 0
   let min = array[0]
-  let newArr = []
   for (let i = 1; i < array.length; i++) {
     if (array[i] < min) {
       min = array[i]
