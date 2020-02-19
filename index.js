@@ -1,13 +1,13 @@
 function findMinAndRemove(array){
   let index = 0
   let min = array[0]
-  for (let i = 1; i < array.length; i++) {
+  for (let i = 0; i < array.length; i++) {
     if (array[i] < min) {
       min = array[i]
       index = i
     }
   }
-  array.slice(index, 1)
+  array.splice(index, 1)
   return min
 }
 
